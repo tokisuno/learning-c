@@ -1,0 +1,14 @@
+▄▄▄▄▄      ·▄▄▄▄        
+•██  ▪     ██▪ ██ ▪     
+ ▐█.▪ ▄█▀▄ ▐█· ▐█▌ ▄█▀▄ 
+ ▐█▌·▐█▌.▐▌██. ██ ▐█▌.▐▌
+ ▀▀▀  ▀█▄▀▪▀▀▀▀▀•  ▀█▄▀▪
+
+[x] 1. Print checkmark
+[ ] 2. Calculate volume of sphere
+[ ] 3. Modify 2 so it prompts user to input radius
+[ ] 4. User input + display amount with a 5% tax
+[ ] 5. Ask for user input to calculate polynomial
+[ ] 6. Modify 5 to use *Horner's Rule*
+[ ] 7. Ask for user input for money, return smallest amount of bills required to make that dollar amount
+[ ] 8. Write program that calculates the remaining balance on a loan after the first, second, and third monthly payments
