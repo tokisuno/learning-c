@@ -11,7 +11,7 @@ int main(void)
 
   printf("Input your monthly interest rate: ");
   scanf("%f", &interest_rate);
-
+  
   interest_rate /= 100;
   
   while (months > 0)
