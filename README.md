@@ -3,7 +3,7 @@ I always have the itch to start learning programming again, and this time I want
 
 - [x] Chapter 1
 - [x] Chapter 2
-- [ ] Chapter 3
+- [x] Chapter 3
 - [ ] Chapter 4
 - [ ] Chapter 5
 - [ ] Chapter 6
