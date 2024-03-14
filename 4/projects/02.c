@@ -2,10 +2,14 @@
 
 int main(void)
 {
-  int n1, n2, n3;
+  int num, n1, n2, n3;
 
   printf("Enter a 3 digit number: ");
-  scanf("%1d%1d%1d", &n1, &n2, &n3);
+  scanf("%d", &num);
+
+  n1 = num / 100;
+  n2 = (num % 100) / 10;
+  n3 = (num % 100) % 10;
   printf("The reversal is: %d%d%d\n", n3, n2, n1);
 
   return 0;
