@@ -1,6 +1,6 @@
 // * I had no idea how to write this so I found a solution online
 // * This just runs through howevery many numbers are in the loop
-
+// * I have 0 clue how to do this otherwise without arrays
 
 #include <stdio.h>
 
