@@ -1,5 +1,5 @@
 // directives: #include
-// statemnts: all the printf() statements
+// statements: all the printf() statements
 
 #include <stdio.h>
 
