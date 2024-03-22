@@ -1,0 +1,84 @@
+// idk wtf i was cooking here 
+
+
+#include <stdio.h>
+
+int main(void)
+{
+  int x, ten, one;
+  printf("Enter a two-digit number: ");
+  scanf("%d", &x);
+
+  one = x % 10;
+  ten = (x / 10) % 10;
+
+  if (x == 11) {
+    printf("eleven");
+  } else if(x == 12) {
+    printf("twelve");
+  } else if (x == 10){
+    printf("10");
+  } else {
+    printf("");
+  }
+
+  if (x >= 13 && x <= 19) {
+    switch (ten) {
+      case 1:
+        switch (one) {
+          case 3: printf("thir"); break;
+          case 4: printf("four"); break;
+          case 5: printf("fif"); break;
+          case 6: printf("six"); break;
+          case 7: printf("seven"); break;
+          case 8: printf("eigh"); break;
+          case 9: printf("nine"); break;
+        }
+      printf("teen");
+      break;
+    }
+  } 
+  if (x >= 0 && x <= 99) {
+    switch (ten) {
+      printf("zero");
+      case 1:
+        switch (one) {
+          case 4: printf("four"); break;
+          case 5: printf("fif"); break;
+          case 6: printf("six"); break;
+          case 7: printf("seven"); break;
+          case 8: printf("eigh"); break;
+          case 9: printf("nine"); break;
+        }
+        printf("teen");
+        break;
+      case 2: printf("twenty"); break;
+      case 3: printf("thirty"); break;
+      case 4: printf("forty"); break;
+      case 5: printf("fifty"); break;
+      case 6: printf("sixty"); break;
+      case 7: printf("seventy"); break;
+      case 8: printf("eighty"); break;
+      case 9: printf("ninety"); break;
+      default: printf(""); break;
+    }
+    if (one == 0) {
+      printf("");
+    } else {
+      printf("-");
+      switch (one) {
+        case 1: printf("one"); break;
+        case 2: printf("two"); break;
+        case 3: printf("three"); break;
+        case 4: printf("four"); break;
+        case 5: printf("five"); break;
+        case 6: printf("six"); break;
+        case 7: printf("seven"); break;
+        case 8: printf("eight"); break;
+        case 9: printf("nine"); break;
+        default: printf(""); break;
+      }
+    }
+  }
+  return 0;
+}
